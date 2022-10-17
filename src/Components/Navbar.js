@@ -27,7 +27,7 @@ const Navbar = () => {
           '
           id='navbarNav'
         >
-          <ul class='navbar-nav'>
+          <ul class='navbar-nav grid'>
             <Link to='/' className='navlinks text-capitalize'>
               <p>home</p>
             </Link>

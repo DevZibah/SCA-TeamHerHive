@@ -20,7 +20,7 @@ const Home = () => {
           </Link>
         </div>
       </section>
-      <div className='p-3'>
+      <div className='p-3 div-mid p-md-4'>
         <section className='sec-two d-flex p-3'>
           <p className='p-th mt-n2'>Lorem ipsum dolor sit amet.</p>
           <div className='d-flex div-tw mt-n2'>
@@ -28,7 +28,7 @@ const Home = () => {
               <BiPlayCircle className='icon ml-1' />
             </div>
             <div>
-              <small className='ml-2'>Lorem, ipsum.</small>
+              <small className='ml-2 smmall'>Lorem, ipsum.</small>
             </div>
           </div>
         </section>
@@ -36,10 +36,10 @@ const Home = () => {
       <section className='sec-three mt-2 p-3'>
         <p className='text-center p-fou mt-3'>Lorem ipsum dolor sit amet.</p>
         <article className='articl'>
-          <div className=''>
+          <div className='mt-md-4'>
             <img className='img-on' src={rec31} alt='rec31' />
             <div className='div-fiv text-center p-3'>
-              <p className='mt-3'>Lorem ipsum dolor sit.</p>
+              <p className='mt-3 div-fiv-p'>Lorem ipsum dolor sit.</p>
               <div className='d-flex div-tw mt-n2 div-teo'>
                 <div>
                   <BiPlayCircle className='icon ml-1' />
@@ -53,7 +53,7 @@ const Home = () => {
           <div className=''>
             <img className='img-on mt-4' src={rec31} alt='rec31' />
             <div className='div-fiv text-center p-3'>
-              <p className='mt-3'>Lorem ipsum dolor sit.</p>
+              <p className='mt-3 div-fiv-p'>Lorem ipsum dolor sit.</p>
               <div className='d-flex div-tw mt-n2 div-teo'>
                 <div>
                   <BiPlayCircle className='icon ml-1' />
@@ -67,7 +67,7 @@ const Home = () => {
           <div className=''>
             <img className='img-on mt-4' src={rec31} alt='rec31' />
             <div className='div-fiv text-center p-3'>
-              <p className='mt-3'>Lorem ipsum dolor sit.</p>
+              <p className='mt-3 div-fiv-p'>Lorem ipsum dolor sit.</p>
               <div className='d-flex div-tw mt-n2 div-teo'>
                 <div>
                   <BiPlayCircle className='icon ml-1' />
@@ -83,10 +83,10 @@ const Home = () => {
       <section className='sec-four mt-2 p-3'>
         <p className='text-center p-fou mt-3'>Lorem ipsum dolor sit amet.</p>
         <article className='articl'>
-          <div className=''>
+          <div className='mt-md-4'>
             <img className='img-on' src={rec22} alt='rec22' />
             <div className='div-fiv text-center p-3'>
-              <p className='mt-3'>Lorem ipsum dolor sit.</p>
+              <p className='mt-3 div-fiv-p'>Lorem ipsum dolor sit.</p>
               <div className='d-flex div-tw mt-n2 div-teo'>
                 <div>
                   <BiPlayCircle className='icon ml-1' />
@@ -100,7 +100,7 @@ const Home = () => {
           <div className=''>
             <img className='img-on mt-4' src={rec22} alt='rec22' />
             <div className='div-fiv text-center p-3'>
-              <p className='mt-3'>Lorem ipsum dolor sit.</p>
+              <p className='mt-3 div-fiv-p'>Lorem ipsum dolor sit.</p>
               <div className='d-flex div-tw mt-n2 div-teo'>
                 <div>
                   <BiPlayCircle className='icon ml-1' />
@@ -114,7 +114,7 @@ const Home = () => {
           <div className=''>
             <img className='img-on mt-4' src={rec22} alt='rec22' />
             <div className='div-fiv text-center p-3'>
-              <p className='mt-3'>Lorem ipsum dolor sit.</p>
+              <p className='mt-3 div-fiv-p'>Lorem ipsum dolor sit.</p>
               <div className='d-flex div-tw mt-n2 div-teo'>
                 <div>
                   <BiPlayCircle className='icon ml-1' />
@@ -131,35 +131,40 @@ const Home = () => {
         <p className='text-center p-sx'>
           Lorem ipsum dolor sit amet consectetur.
         </p>
-        <article>
+        <article className=''>
           <div>
-            <img className='img-on' src={rec22} alt='' />
+            <img className='img-on image-one' src={rec22} alt='' />
           </div>
-          <div>
-            <div className='mt-3 p-sv d-flex'>
-              <p className='mt-2 p-eig'>
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-              <BiPlayCircle className='icon-on mt-2' />
+          <article className='arti-one'>
+            <div>
+              <div className='mt-3 p-sv d-flex'>
+                <p className='mt-2 p-eig'>
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <BiPlayCircle className='icon-on mt-2' />
+              </div>
+              <div className='mt-3 p-sv d-flex'>
+                <p className='mt-2 p-eig'>
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <BiPlayCircle className='icon-on mt-2' />
+              </div>
+              <div className='mt-3 p-sv d-flex'>
+                <p className='mt-2 p-eig'>
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <BiPlayCircle className='icon-on mt-2' />
+              </div>
             </div>
-            <div className='mt-3 p-sv d-flex'>
-              <p className='mt-2 p-eig'>
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-              <BiPlayCircle className='icon-on mt-2' />
+            <div>
+              <img className='image-two mt-md-2' src={rec22} alt='' />
             </div>
-            <div className='mt-3 p-sv d-flex'>
-              <p className='mt-2 p-eig'>
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-              <BiPlayCircle className='icon-on mt-2' />
-            </div>
-          </div>
+          </article>
         </article>
       </section>
-      <section className='mt-3 p-3'>
+      <section className='mt-3 p-3 secc-on'>
         <div>
-          <img className='img-on' src={rec22} alt='rec22' />
+          <img className='img-on mt-md-5' src={rec22} alt='rec22' />
         </div>
         <div className='div-sept mt-3 text-center p-5'>
           <p className='p-sept'>Lorem ipsum dolor sit amet.</p>
@@ -169,27 +174,34 @@ const Home = () => {
           </small>{' '}
           <br />
           <Link to='/About' className='text-capitalize p-1'>
-            <button className='text-capitalize p-1 buttn mt-2'>about us</button>
+            <button className='text-capitalize p-1 buttn buttnn mt-2'>
+              about us
+            </button>
           </Link>
         </div>
       </section>
       <section className='mt-3 p-3'>
-        <div>
+        <div className='divv'>
           <img className='img-on' src={rec22} alt='rec22' />
         </div>
-        <div className='div-sept mt-3 text-center p-5'>
-          <p className='p-sept'>Lorem ipsum dolor sit amet.</p>
-          <small className='pp-p'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-            quibusdam officia debitis amet quis fugit doloribus suscipit? A.
-          </small>{' '}
-          <br />
-          <Link to='/Stories' className='text-capitalize p-1'>
-            <button className='text-capitalize p-1 buttn mt-2'>
-              more stories
-            </button>
-          </Link>
-        </div>
+        <article className='secc-on'>
+          <div className='div-sept mt-3 text-center p-5'>
+            <p className='p-sept'>Lorem ipsum dolor sit amet.</p>
+            <small className='pp-p'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+              quibusdam officia debitis amet quis fugit doloribus suscipit? A.
+            </small>{' '}
+            <br />
+            <Link to='/Stories' className='text-capitalize p-1'>
+              <button className='text-capitalize p-1 buttn buttnn mt-2'>
+                more stories
+              </button>
+            </Link>
+          </div>
+          <div className='mt-md-3 divv-on'>
+            <img className='img-on mt-md-4' src={rec22} alt='rec22' />
+          </div>
+        </article>
       </section>
       <section className='sec-six mt-3 p-3'>
         <p className='text-center p-sx'>
@@ -197,28 +209,33 @@ const Home = () => {
         </p>
         <article>
           <div>
-            <img className='img-on' src={rec22} alt='' />
+            <img className='img-on image-one' src={rec22} alt='' />
           </div>
-          <div>
-            <div className='mt-3 p-sv d-flex'>
-              <p className='mt-2 p-eig'>
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-              <BiPlayCircle className='icon-on mt-2' />
+          <article className='arti-one'>
+            <div>
+              <div className='mt-3 p-sv d-flex'>
+                <p className='mt-2 p-eig'>
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <BiPlayCircle className='icon-on mt-2' />
+              </div>
+              <div className='mt-3 p-sv d-flex'>
+                <p className='mt-2 p-eig'>
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <BiPlayCircle className='icon-on mt-2' />
+              </div>
+              <div className='mt-3 p-sv d-flex'>
+                <p className='mt-2 p-eig'>
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <BiPlayCircle className='icon-on mt-2' />
+              </div>
             </div>
-            <div className='mt-3 p-sv d-flex'>
-              <p className='mt-2 p-eig'>
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-              <BiPlayCircle className='icon-on mt-2' />
+            <div>
+              <img className='image-two mt-md-2' src={rec22} alt='' />
             </div>
-            <div className='mt-3 p-sv d-flex'>
-              <p className='mt-2 p-eig'>
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-              <BiPlayCircle className='icon-on mt-2' />
-            </div>
-          </div>
+          </article>
         </article>
         <div className='text-center'>
           <Link to='/Contact' className='text-capitalize p-1'>

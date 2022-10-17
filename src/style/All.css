@@ -91,6 +91,12 @@ body {
   width: 100%;
   border-radius: 10px 10px 0px 0px;
 }
+.divv-on {
+  display: none;
+}
+.image-two {
+  display: none;
+}
 .articl {
   border-radius: 10px;
 }
@@ -147,6 +153,121 @@ body {
   width: 12rem;
 }
 @media (min-width: 768px) {
+  .icon-one {
+    display: none;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 8px;
+    margin-top: -2rem;
+  }
+  .div-one {
+    border: 1px solid red;
+    margin-top: -16rem;
+  }
+  .p-one {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 36px;
+  }
+  .p-two {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .sec-one button {
+    font-weight: 700;
+    font-size: 20px;
+    width: 200px;
+    height: 49px;
+  }
+  .div-mid {
+    margin-top: 6rem;
+  }
+  .p-th {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .div-tw {
+    justify-content: space-evenly;
+    width: 12rem;
+    height: 2rem;
+  }
+  .icon {
+    font-size: 25px;
+  }
+  .smmall {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .p-fou {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .articl {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  .div-fiv-p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #573e8d;
+  }
+  .div-teo {
+    width: 8rem;
+  }
+  .p-sx {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .image-one {
+    display: none;
+  }
+  .image-two {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+  }
+  .arti-one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .secc-on {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .divv {
+    display: none;
+  }
+  .divv-on {
+    display: block;
+  }
+  .p-sept {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .buttnn {
+    width: 10rem;
+    height: 2.5rem;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .butn {
+    width: 16rem;
+    height: 2.5rem;
+  }
 }
 @media (min-width: 1024px) {
+  
 }
