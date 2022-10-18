@@ -279,9 +279,9 @@ body {
     line-height: 36px;
     margin-top: 1rem;
   }
-  /* .div-one {
-    margin-top: -20rem;
-  } */
+  .div-one {
+    margin-top: -29rem;
+  }
   .p-one {
     font-weight: 700;
     font-size: 50px;
@@ -293,7 +293,8 @@ body {
     line-height: 36px;
   }
   .sec-one button {
-    font-size: 20px;
+    margin-top: 2rem;
+    font-size: 22px;
     width: 240px;
     height: 56px;
   }
@@ -301,36 +302,38 @@ body {
     padding: 4rem !important;
   }
   .sec-two {
-    padding: 2rem !important;
-    margin-top: -1rem;
+    padding: 3rem !important;
+    margin-top: 7rem;
   }
   .p-th {
-    margin-top: -0.7rem !important;
+    margin-top: -1.6rem !important;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 20px;
+    font-size: 32px;
+    line-height: 48px;
   }
   .div-tw {
-    width: 14rem;
-    height: 3rem;
-    margin-top: -1.5rem !important;
+    width: 412px;
+    height: 56px;
+    margin-top: -2rem !important;
   }
-  .icon {
-    font-size: 35px;
+  .icconn {
+    width: 45px;
+    height: 45px;
     margin-top: 0.3rem;
   }
   .smmall {
     font-weight: 700;
-    font-size: 25px;
-    line-height: 41px;
+    font-size: 32px;
+    line-height: 48px;
   }
   .sec-three {
     padding: 4rem !important;
     margin-top: -1rem !important;
   }
   .p-fou {
-    font-size: 30px;
-    line-height: 30px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
   }
   .articl {
     grid-gap: 25px;
@@ -341,7 +344,8 @@ body {
     line-height: 36px;
   }
   .div-teo {
-    width: 10rem;
+    width: 173px;
+    height: 36px;
     margin-top: -0.5rem !important;
   }
   .div-smal {
@@ -360,18 +364,32 @@ body {
     font-size: 32px;
     line-height: 48px;
   }
+  .arrtticle {
+    margin-top: 2rem;
+  }
+  .p-sv {
+    width: 590px;
+    height: 70px;
+  }
   .p-eig {
+    margin-top: 1rem !important;
     font-weight: 500;
     font-size: 22px;
     line-height: 33px;
   }
   .icon-on {
-    font-size: 35px;
+    margin-top: 0.7rem !important;
+    width: 45px;
+    height: 45px;
+  }
+  .secc-on {
+    padding: 4rem !important;
+    margin-top: -1rem !important;
   }
   .p-sept {
     font-weight: 500;
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 60px;
   }
   .pp-p {
     font-weight: 300;
@@ -379,56 +397,25 @@ body {
     line-height: 30px;
   }
   .buttnn {
-    width: 12rem;
-    height: 3rem;
+    margin-top: 2rem !important;
+    width: 288px;
+    height: 62px;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 48px;
+  }
+  .div-sept {
+    margin-top: 2.8rem !important;
+  }
+  .div-eig {
+    margin-top: 1rem !important;
   }
   .butn {
-    width: 20rem;
-    height: 4rem;
+    margin-top: 2rem !important;
+    width: 594px;
+    height: 82px;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 40px;
+    font-size: 32px;
+    line-height: 48px;
   }
 }
-/* @media (min-width: 1440px) {
-  .p-one {
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 96px;
-  }
-  .sec-one button {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 48px;
-    width: 382px;
-    height: 79px;
-  }
-  .div-one {
-    margin-top: -30rem;
-  }
-  .sec-two {
-    margin-top: 9rem;
-    padding: 3rem !important;
-  }
-  .div-tw {
-    width: 16rem;
-    height: 3.5rem;
-  }
-  .p-th {
-    margin-top: -1.5rem !important;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 48px;
-  }
-  .smmall {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 48px;
-  }
-  .icconn{
-    font-size: 40px;
-  }
-} */

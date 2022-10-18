@@ -185,7 +185,7 @@ const Home = () => {
           <img className='img-on' src={rec22} alt='rec22' />
         </div>
         <article className='secc-on'>
-          <div className='div-sept mt-3 text-center p-5'>
+          <div className='div-sept div-eig mt-3 text-center p-5'>
             <p className='p-sept'>Lorem ipsum dolor sit amet.</p>
             <small className='pp-p'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
@@ -212,7 +212,7 @@ const Home = () => {
             <img className='img-on image-one' src={rec22} alt='' />
           </div>
           <article className='arti-one'>
-            <div>
+            <div className='arrtticle'>
               <div className='mt-3 p-sv d-flex'>
                 <p className='mt-2 p-eig'>
                   Lorem ipsum dolor sit amet consectetur.
