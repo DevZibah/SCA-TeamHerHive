@@ -45,7 +45,7 @@ const Home = () => {
                   <BiPlayCircle className='icon ml-1' />
                 </div>
                 <div>
-                  <small className='ml-2'>Lorem, ipsum.</small>
+                  <small className='ml-2 div-smal'>Lorem, ipsum.</small>
                 </div>
               </div>
             </div>
@@ -59,7 +59,7 @@ const Home = () => {
                   <BiPlayCircle className='icon ml-1' />
                 </div>
                 <div>
-                  <small className='ml-2'>Lorem, ipsum.</small>
+                  <small className='ml-2 div-smal'>Lorem, ipsum.</small>
                 </div>
               </div>
             </div>
@@ -73,7 +73,7 @@ const Home = () => {
                   <BiPlayCircle className='icon ml-1' />
                 </div>
                 <div>
-                  <small className='ml-2'>Lorem, ipsum.</small>
+                  <small className='ml-2 div-smal'>Lorem, ipsum.</small>
                 </div>
               </div>
             </div>
@@ -92,7 +92,7 @@ const Home = () => {
                   <BiPlayCircle className='icon ml-1' />
                 </div>
                 <div>
-                  <small className='ml-2'>Lorem, ipsum.</small>
+                  <small className='ml-2 div-smal'>Lorem, ipsum.</small>
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@ const Home = () => {
                   <BiPlayCircle className='icon ml-1' />
                 </div>
                 <div>
-                  <small className='ml-2'>Lorem, ipsum.</small>
+                  <small className='ml-2 div-smal'>Lorem, ipsum.</small>
                 </div>
               </div>
             </div>
@@ -120,7 +120,7 @@ const Home = () => {
                   <BiPlayCircle className='icon ml-1' />
                 </div>
                 <div>
-                  <small className='ml-2'>Lorem, ipsum.</small>
+                  <small className='ml-2 div-smal'>Lorem, ipsum.</small>
                 </div>
               </div>
             </div>
@@ -136,7 +136,7 @@ const Home = () => {
             <img className='img-on image-one' src={rec22} alt='' />
           </div>
           <article className='arti-one'>
-            <div>
+            <div className='arrtticle'>
               <div className='mt-3 p-sv d-flex'>
                 <p className='mt-2 p-eig'>
                   Lorem ipsum dolor sit amet consectetur.

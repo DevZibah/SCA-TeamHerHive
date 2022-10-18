@@ -269,5 +269,128 @@ body {
   }
 }
 @media (min-width: 1024px) {
-  
+  .logo {
+    width: 75px;
+    height: 90px;
+  }
+  .grid {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    margin-top: 1rem;
+  }
+  .div-one {
+    border: 1px solid red;
+    margin-top: -20rem;
+  }
+  .p-one {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 96px;
+  }
+  .p-two {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .sec-one button {
+    font-size: 20px;
+    width: 240px;
+    height: 56px;
+  }
+  .div-mid {
+    padding: 4rem !important;
+  }
+  .sec-two {
+    padding: 2rem !important;
+    margin-top: -1rem;
+  }
+  .p-th {
+    margin-top: -0.7rem !important;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;
+  }
+  .div-tw {
+    width: 14rem;
+    height: 3rem;
+    margin-top: -1.5rem !important;
+  }
+  .icon {
+    font-size: 35px;
+    margin-top: 0.3rem;
+  }
+  .smmall {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 41px;
+  }
+  .sec-three {
+    padding: 4rem !important;
+    margin-top: -1rem !important;
+  }
+  .p-fou {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .articl {
+    grid-gap: 25px;
+  }
+  .div-fiv-p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .div-teo {
+    width: 10rem;
+    margin-top: -0.5rem !important;
+  }
+  .div-smal {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .sec-four {
+    padding: 4rem !important;
+  }
+  .sec-six {
+    padding: 4rem !important;
+  }
+  .p-sx {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .p-eig {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .icon-on {
+    font-size: 35px;
+  }
+  .p-sept {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .pp-p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .buttnn {
+    width: 12rem;
+    height: 3rem;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .butn {
+    width: 20rem;
+    height: 4rem;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+  }
 }
