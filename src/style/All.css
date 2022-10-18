@@ -152,6 +152,31 @@ body {
 .butn {
   width: 12rem;
 }
+.audio-sec {
+  border: 1px solid red;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  width: 500px;
+  background-color: #fff;
+}
+.modal-body {
+  border: 1px solid red;
+}
 @media (min-width: 768px) {
   .icon-one {
     display: none;

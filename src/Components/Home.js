@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from './Navbar'
 import rec from '../assets/rec2.png'
 import rec31 from '../assets/rec31.png'
 import rec22 from '../assets/rec22.png'
 import { Link } from 'react-router-dom'
 import { BiPlayCircle } from 'react-icons/bi'
+import Audio from './Audio'
 
 const Home = () => {
+  const [show, setShow] = useState(false)
   return (
     <div>
       <Navbar />
@@ -25,7 +27,11 @@ const Home = () => {
           <p className='p-th mt-n2'>Lorem ipsum dolor sit amet.</p>
           <div className='d-flex div-tw mt-n2'>
             <div>
-              <BiPlayCircle className='icon icconn ml-1' />
+              <BiPlayCircle
+                onClick={() => setShow(true)}
+                className='icon icconn ml-1'
+              />
+              <Audio show={show} onClose={() => setShow(false)} />
             </div>
             <div>
               <small className='ml-2 smmall'>Lorem, ipsum.</small>
