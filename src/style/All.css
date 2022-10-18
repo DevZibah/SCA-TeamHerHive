@@ -279,10 +279,9 @@ body {
     line-height: 36px;
     margin-top: 1rem;
   }
-  .div-one {
-    border: 1px solid red;
+  /* .div-one {
     margin-top: -20rem;
-  }
+  } */
   .p-one {
     font-weight: 700;
     font-size: 50px;
@@ -394,3 +393,42 @@ body {
     line-height: 40px;
   }
 }
+/* @media (min-width: 1440px) {
+  .p-one {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+  }
+  .sec-one button {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    width: 382px;
+    height: 79px;
+  }
+  .div-one {
+    margin-top: -30rem;
+  }
+  .sec-two {
+    margin-top: 9rem;
+    padding: 3rem !important;
+  }
+  .div-tw {
+    width: 16rem;
+    height: 3.5rem;
+  }
+  .p-th {
+    margin-top: -1.5rem !important;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .smmall {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .icconn{
+    font-size: 40px;
+  }
+} */

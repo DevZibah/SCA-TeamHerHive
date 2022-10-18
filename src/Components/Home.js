@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       <Navbar />
       <section className='sec-one text-center'>
-        <img src={rec} alt='sec-image' />
+        <img className='imgg-on' src={rec} alt='sec-image' />
         <div className='div-one'>
           <p className='p-one'>Lorem ipsum dolor sit amet consectetur.</p>
           <p className='mt-n3 p-two'>Lorem ipsum dolor sit amet consectetur.</p>
@@ -25,7 +25,7 @@ const Home = () => {
           <p className='p-th mt-n2'>Lorem ipsum dolor sit amet.</p>
           <div className='d-flex div-tw mt-n2'>
             <div>
-              <BiPlayCircle className='icon ml-1' />
+              <BiPlayCircle className='icon icconn ml-1' />
             </div>
             <div>
               <small className='ml-2 smmall'>Lorem, ipsum.</small>
