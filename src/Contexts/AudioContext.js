@@ -5,7 +5,7 @@ export const AudioContext = createContext()
 
 const AudioContextProvider = ({ children }) => {
   // the array of data to hold the json data provided, data here as an array is empty.
-  const [data, setData] = useState()
+  const [data, setData] = useState([])
   const [nameone, setNameone] = useState()
   const [title, setTitle] = useState('Here is a story of a warrior')
   const [titleone, setTitleone] = useState('what is sickle cell')
@@ -28,9 +28,18 @@ const AudioContextProvider = ({ children }) => {
     fetchPackages()
   }, [])
 
+  const aud = data.filter((item) => {
+    if (item.name === nameone) {
+      return item
+    }
+  })
+  const audi = aud.map((item) => {
+    return item.num
+  })
+
   return (
     <AudioContext.Provider
-      value={{ data, setNameone, nameone, title, titleone }}
+      value={{ data, setNameone, nameone, title, titleone, audi }}
     >
       {children}
     </AudioContext.Provider>

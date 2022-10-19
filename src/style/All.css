@@ -153,13 +153,6 @@ body {
 .butn {
   width: 12rem;
 }
-/* .audio-sec {
-  border: 1px solid red;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 .modal {
   position: fixed;
   left: 0;
@@ -172,11 +165,9 @@ body {
   justify-content: center;
 }
 .modal-content {
-  width: 500px;
   border: 1px solid red;
   width: 545px;
   min-height: 50vh;
-  /* height: 302px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -192,6 +183,27 @@ body {
   line-height: 44px;
   color: var(--SecTwoPtag);
 }
+.audiolib {
+  background-color: var(--AudioBackground);
+  border: 1px solid var(--AudioBackground) !important;
+}
+.rhap_main-controls-button svg,
+.rhap_button-clear.rhap_volume-button,
+.rhap_time {
+  color: var(--SecTwoPtag);
+}
+.rhap_volume-bar,
+.rhap_volume-indicator {
+  background-color: var(--SecTwoPtag);
+}
+.rhap_progress-filled,
+.rhap_progress-indicator {
+  background-color: var(--SecTwoPtag) !important;
+}
+.rhap_additional-controls {
+  color: var(--SecTwoPtag) !important;
+}
+
 @media (min-width: 768px) {
   .icon-one {
     display: none;
@@ -306,6 +318,10 @@ body {
   .butn {
     width: 16rem;
     height: 2.5rem;
+  }
+  .modal-content {
+    min-height: 80vh !important;
+    width: 350px !important;
   }
 }
 @media (min-width: 1024px) {
@@ -457,5 +473,18 @@ body {
     font-weight: 700;
     font-size: 32px;
     line-height: 48px;
+  }
+  .modal-content {
+    min-height: 80vh !important;
+    width: 450px !important;
+  }
+  .audioimg {
+    width: 401px;
+    height: 291px;
+  }
+  .audiop {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 50px;
   }
 }
