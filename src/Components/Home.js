@@ -11,7 +11,6 @@ import { AudioContext } from '../Contexts/AudioContext'
 const Home = () => {
   const [show, setShow] = useState(false)
   const { data, setNameone, title, titleone } = useContext(AudioContext)
-  console.log(data)
   return (
     <div>
       <Navbar />

@@ -165,7 +165,6 @@ body {
   justify-content: center;
 }
 .modal-content {
-  border: 1px solid red;
   width: 545px;
   min-height: 50vh;
   display: flex;
@@ -215,7 +214,6 @@ body {
     margin-top: -2rem;
   }
   .div-one {
-    border: 1px solid red;
     margin-top: -16rem;
   }
   .p-one {
