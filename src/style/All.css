@@ -7,6 +7,7 @@
   --SecTwoBackground: #ffffff;
   --SecTwoPtag: #573e8d;
   --SecThreeBackground: #f8f8f8;
+  --AudioBackground: #d9d2ea;
 }
 *,
 ::after,
@@ -152,13 +153,13 @@ body {
 .butn {
   width: 12rem;
 }
-.audio-sec {
+/* .audio-sec {
   border: 1px solid red;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 .modal {
   position: fixed;
   left: 0;
@@ -172,10 +173,24 @@ body {
 }
 .modal-content {
   width: 500px;
-  background-color: #fff;
-}
-.modal-body {
   border: 1px solid red;
+  width: 545px;
+  min-height: 50vh;
+  /* height: 302px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--AudioBackground);
+}
+.audioimg {
+  width: 250px;
+  height: 200px;
+}
+.audiop {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 44px;
+  color: var(--SecTwoPtag);
 }
 @media (min-width: 768px) {
   .icon-one {

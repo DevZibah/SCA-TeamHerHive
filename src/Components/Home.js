@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import Navbar from './Navbar'
 import rec from '../assets/rec2.png'
 import rec31 from '../assets/rec31.png'
@@ -6,9 +6,12 @@ import rec22 from '../assets/rec22.png'
 import { Link } from 'react-router-dom'
 import { BiPlayCircle } from 'react-icons/bi'
 import Audio from './Audio'
+import { AudioContext } from '../Contexts/AudioContext'
 
 const Home = () => {
   const [show, setShow] = useState(false)
+  const { data, setNameone, title, titleone } = useContext(AudioContext)
+  console.log(data)
   return (
     <div>
       <Navbar />
@@ -24,11 +27,11 @@ const Home = () => {
       </section>
       <div className='p-3 div-mid p-md-4'>
         <section className='sec-two d-flex p-3'>
-          <p className='p-th mt-n2'>Lorem ipsum dolor sit amet.</p>
+          <p className='p-th mt-n2'>{title}</p>
           <div className='d-flex div-tw mt-n2'>
             <div>
               <BiPlayCircle
-                onClick={() => setShow(true)}
+                onClick={() => (setShow(true), setNameone(title))}
                 className='icon icconn ml-1'
               />
               <Audio show={show} onClose={() => setShow(false)} />
@@ -45,10 +48,14 @@ const Home = () => {
           <div className='mt-md-4'>
             <img className='img-on' src={rec31} alt='rec31' />
             <div className='div-fiv text-center p-3'>
-              <p className='mt-3 div-fiv-p'>Lorem ipsum dolor sit.</p>
+              <p className='mt-3 div-fiv-p'>{titleone}</p>
               <div className='d-flex div-tw mt-n2 div-teo'>
                 <div>
-                  <BiPlayCircle className='icon ml-1' />
+                  <BiPlayCircle
+                    onClick={() => (setShow(true), setNameone(titleone))}
+                    className='icon ml-1'
+                  />
+                  <Audio show={show} onClose={() => setShow(false)} />
                 </div>
                 <div>
                   <small className='ml-2 div-smal'>Lorem, ipsum.</small>
