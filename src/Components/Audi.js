@@ -18,11 +18,11 @@ const Audi = ({ item }) => {
       currentTrack < data.length - 1 ? currentTrack + 1 : 0
     )
   }
-  console.log(item.id)
   return (
     <div>
-      <img className='audioimg' src={item.image} alt='' />
-      <p className='audiop'>{item.name}</p>
+     
+      <img className='audioimg' src={data[trackIndex].image} alt='' />
+      <p className='audiop'>{data[trackIndex].name}</p>
       <AudioPlayer
         className='audiolib mt-n3'
         // autoPlay

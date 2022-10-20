@@ -165,12 +165,18 @@ body {
   justify-content: center;
 }
 .modal-content {
+  border: 1px solid var(--AudioBackground) !important;
   width: 545px;
   min-height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--AudioBackground);
+}
+.arrow {
+  font-size: 20px;
+  color: var(--SecTwoPtag);
+  margin-left: -14.5rem !important;
 }
 .audioimg {
   width: 250px;
@@ -484,5 +490,9 @@ body {
     font-weight: 700;
     font-size: 28px;
     line-height: 50px;
+  }
+  .arrow {
+    font-size: 25px;
+    margin-left: -24rem !important;
   }
 }
