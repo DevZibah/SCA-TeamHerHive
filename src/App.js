@@ -5,6 +5,9 @@ import Stories from './Components/Stories'
 import About from './Components/About'
 import Audio from './Components/Audio'
 import './style/All.css'
+import './style/About.css'
+import './style/Stories.css'
+import './style/Contact.css'
 const App = () => {
   return (
     <div className='App'>
