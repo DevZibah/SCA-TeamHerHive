@@ -6,14 +6,14 @@ const About = () => {
   return (
     <div>
       <Navbar />
-      <main class='p-4'>
-        <section class='mt-2 first-section p-3 p-md-5'>
-          <div class='flex-1'>
+      <main className='p-4'>
+        <section className='mt-2 first-section p-3 p-md-5'>
+          <div className='flex-1'>
             <img src={rec} alt='' />
           </div>
           <article className='article-div'>
-            <div class='flex1'>
-              <h2>About Us</h2>
+            <div className='flex1'>
+              <h2 className='text-center'>About Us</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -28,14 +28,14 @@ const About = () => {
                 nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
-            <div class='flex-onee'>
+            <div className='flex-onee'>
               <img src={rec} alt='' />
             </div>
           </article>
         </section>
-        <section class='mt-4 first-section p-3 p-md-5 article-div'>
-          <div class='flex2'>
-            <h2>Our Mission</h2>
+        <section className='mt-4 first-section p-3 p-md-5 article-div'>
+          <div className='flex2'>
+            <h2 className='text-center'>Our Mission</h2>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
               facilis quisquam dolorum ratione? Quam rem, quibusdam commodi odit
@@ -47,8 +47,8 @@ const About = () => {
               obcaecati.
             </p>
           </div>
-          <div class='flex-2'>
-            <h2>Our Vision</h2>
+          <div className='flex-2'>
+            <h2 className='text-center'>Our Vision</h2>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
               obcaecati unde mollitia facilis facere quaerat, dolorum dolore
@@ -61,7 +61,7 @@ const About = () => {
             </p>
           </div>
         </section>
-        <section class='flexbox3 p-3 mt-4 mb-1  p-md-5'>
+        <section className='flexbox3 p-3 mt-4 mb-1  p-md-5'>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
             repellat blanditiis recusandae esse similique soluta. Commodi
