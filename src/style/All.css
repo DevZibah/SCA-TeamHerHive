@@ -164,6 +164,12 @@ body {
   align-items: center;
   justify-content: center;
 }
+.mod {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
 .modal-content {
   border: 1px solid var(--AudioBackground) !important;
   width: 545px;
@@ -172,6 +178,13 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--AudioBackground);
+}
+.mod-content {
+  border: 1px solid var(--AudioBackground) !important;
+  background-color: var(--AudioBackground);
+}
+.linnk {
+  color: white;
 }
 .arrow {
   font-size: 20px;
@@ -327,6 +340,9 @@ body {
     min-height: 80vh !important;
     width: 350px !important;
   }
+  .mod-content {
+    width: 360px !important;
+  }
 }
 @media (min-width: 1024px) {
   .logo {
@@ -480,6 +496,9 @@ body {
   }
   .modal-content {
     min-height: 80vh !important;
+    width: 450px !important;
+  }
+  .mod-content {
     width: 450px !important;
   }
   .audioimg {

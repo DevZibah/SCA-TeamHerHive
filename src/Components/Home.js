@@ -10,7 +10,8 @@ import { AudioContext } from '../Contexts/AudioContext'
 
 const Home = () => {
   const [show, setShow] = useState(false)
-  const { data, setNameone, title, titleone } = useContext(AudioContext)
+  const { data, setNameone, title, titleone, titletwo } =
+    useContext(AudioContext)
   return (
     <div>
       <Navbar />
@@ -29,10 +30,12 @@ const Home = () => {
           <p className='p-th mt-n2'>{title}</p>
           <div className='d-flex div-tw mt-n2'>
             <div>
-              <BiPlayCircle
-                onClick={() => (setShow(true), setNameone(title))}
-                className='icon icconn ml-1'
-              />
+              <Link to='/Record' className='linnk'>
+                <BiPlayCircle
+                  onClick={() => (setShow(true), setNameone(title))}
+                  className='icon icconn ml-1'
+                />
+              </Link>
               <Audio show={show} onClose={() => setShow(false)} />
             </div>
             <div>
@@ -50,10 +53,12 @@ const Home = () => {
               <p className='mt-3 div-fiv-p'>{titleone}</p>
               <div className='d-flex div-tw mt-n2 div-teo'>
                 <div>
-                  <BiPlayCircle
-                    onClick={() => (setShow(true), setNameone(titleone))}
-                    className='icon ml-1'
-                  />
+                  <Link to='/Record' className='linnk'>
+                    <BiPlayCircle
+                      onClick={() => (setShow(true), setNameone(titleone))}
+                      className='icon ml-1'
+                    />
+                  </Link>
                   <Audio show={show} onClose={() => setShow(false)} />
                 </div>
                 <div>
@@ -63,12 +68,17 @@ const Home = () => {
             </div>
           </div>
           <div className=''>
-            <img className='img-on mt-4' src={rec31} alt='rec31' />
+            <img className='img-on mt-4' src={rec22} alt='rec22' />
             <div className='div-fiv text-center p-3'>
-              <p className='mt-3 div-fiv-p'>Lorem ipsum dolor sit.</p>
+              <p className='mt-3 div-fiv-p'>{titletwo}</p>
               <div className='d-flex div-tw mt-n2 div-teo'>
                 <div>
-                  <BiPlayCircle className='icon ml-1' />
+                  <Link to='/Record' className='linnk'>
+                    <BiPlayCircle
+                      onClick={() => (setShow(true), setNameone(titletwo))}
+                      className='icon ml-1'
+                    />
+                  </Link>
                 </div>
                 <div>
                   <small className='ml-2 div-smal'>Lorem, ipsum.</small>
