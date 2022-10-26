@@ -6,7 +6,9 @@ export const AudioContext = createContext()
 const AudioContextProvider = ({ children }) => {
   // the array of data to hold the json data provided, data here as an array is empty.
   const [data, setData] = useState([])
+  const [dataone, setDataone] = useState([])
   const [nameone, setNameone] = useState()
+  const [id, setId] = useState(0)
   const [title, setTitle] = useState('Here is a story of a warrior')
   const [titleone, setTitleone] = useState('what is sickle cell')
   const [titletwo, setTitletwo] = useState('Types of sickle cell')
@@ -28,11 +30,29 @@ const AudioContextProvider = ({ children }) => {
     fetchPackages()
   }, [])
 
+  const fetchPackagesone = async () => {
+    try {
+      const response = await fetch(`/dataone.json`)
+      const products = await response.json()
+      // console.log(products)
+      setDataone(products)
+    } catch (error) {
+      console.log(error)
+    }
+  }
+  // access data once, when the component (App) renders
+  useEffect(() => {
+    fetchPackagesone()
+  }, [])
+
   return (
     <AudioContext.Provider
       value={{
         data,
+        dataone,
         setNameone,
+        setId,
+        id,
         nameone,
         title,
         titleone,

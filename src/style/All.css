@@ -37,6 +37,10 @@ body {
 .navlinks {
   color: white;
 }
+.navlinks:hover {
+  color: white;
+  text-decoration: none;
+}
 .sec-one {
   color: white;
 }

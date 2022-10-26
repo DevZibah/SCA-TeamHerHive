@@ -21,8 +21,10 @@
   background-color: var(--SecTwoBackground);
   box-shadow: 10px 10px 20px rgba(22, 27, 29, 0.25), -10px -10px 20px #fafbff;
   border-radius: 5px;
-  justify-content: space-around;
-  padding: 2px;
+  justify-content: space-between;
+}
+.icon-on1 {
+  font-size: 25px;
 }
 .submitbtn1 {
   border: 1px solid #7651c5;
@@ -33,6 +35,16 @@
   font-size: 18px;
   line-height: 30px;
   color: #ffffff;
+}
+.linkkk {
+  color: #573e8d;
+}
+.linkkk:hover {
+  color: #573e8d;
+}
+.mod-content1 {
+  border: 1px solid var(--AudioBackground) !important;
+  background-color: var(--AudioBackground);
 }
 @media (min-width: 768px) {
   .stories-art {

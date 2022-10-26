@@ -4,6 +4,7 @@ import Contact from './Components/Contact'
 import Stories from './Components/Stories'
 import About from './Components/About'
 import Record from './Components/Record'
+import Recordone from './Components/Recordone'
 import './style/All.css'
 import './style/About.css'
 import './style/Stories.css'
@@ -18,6 +19,7 @@ const App = () => {
           <Route exact path='/Stories' component={Stories} />
           <Route exact path='/About' component={About} />
           <Route exact path='/Record' component={Record} />
+          <Route exact path='/Recordone' component={Recordone} />
         </Switch>
       </div>
     </div>
