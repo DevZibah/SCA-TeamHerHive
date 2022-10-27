@@ -106,18 +106,30 @@ const Contact = () => {
             </div>
             <div className='tel' id='flex'>
               <BsFillTelephoneFill className='flexicon' />
-              <p className='contactp ml-2 ml-md-4'>+23456789020</p>
+              <p className='contactp ml-2 ml-md-4'>+234 814 812 3790</p>
             </div>
             <div className='contactflex' id='flex'>
               <IoIosHome className='flexicon' />
               <p className='contactp ml-2 ml-md-4'>
-                12, James Mark Street Surulere <br /> Lagos, Nigeria
+                13 Link Road Independence Layout <br /> Enugu, Nigeria
               </p>
             </div>
             <div className='footlogo'>
-              <IoLogoFacebook className='ml-4 ml-md-5' />
-              <AiFillTwitterSquare className='ml-4 ml-md-5' />
-              <IoLogoInstagram className='ml-4 ml-md-5' />
+              <a
+                className='footlogoa'
+                href='https://web.facebook.com/southsaharan1'
+              >
+                <IoLogoFacebook className='ml-4 ml-md-5' />
+              </a>
+              <a className='footlogoa' href='https://twitter.com/southsaharan'>
+                <AiFillTwitterSquare className='ml-4 ml-md-5' />
+              </a>
+              <a
+                className='footlogoa'
+                href='https://www.instagram.com/southsaharan/'
+              >
+                <IoLogoInstagram className='ml-4 ml-md-5' />
+              </a>
             </div>
           </div>
         </main>
