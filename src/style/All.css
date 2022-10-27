@@ -190,6 +190,9 @@ body {
 .linnk {
   color: white;
 }
+.linnk:hover {
+  color: white;
+}
 .arrow {
   font-size: 20px;
   color: var(--SecTwoPtag);

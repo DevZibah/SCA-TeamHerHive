@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Navbar from './Navbar'
 import { CgMail } from 'react-icons/cg'
 import { BsFillTelephoneFill } from 'react-icons/bs'
@@ -6,8 +6,40 @@ import { IoIosHome } from 'react-icons/io'
 import { IoLogoFacebook } from 'react-icons/io'
 import { AiFillTwitterSquare } from 'react-icons/ai'
 import { IoLogoInstagram } from 'react-icons/io'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    emailjs
+      .sendForm(
+        'service_4cdec2e',
+        'template_u966nga',
+        form.current,
+        '-Hjb6aPMQNcQ6QHpg'
+      )
+      .then(
+        (result) => {
+          console.log(result.text)
+        },
+        (error) => {
+          console.log(error.text)
+        }
+      )
+    alert('Email sent!')
+  }
+
+  const Mailto = ({ email, subject = '', body = '', children }) => {
+    let params = subject || body ? '?' : ''
+    if (subject) params += `subject=${encodeURIComponent(subject)}`
+    if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`
+
+    return <a href={`mailto:${email}${params}`}>{children}</a>
+  }
+
   return (
     <div>
       <Navbar />
@@ -18,7 +50,7 @@ const Contact = () => {
             <p className='contactp text-center mt-n3'>
               Feel free to contact us anytime
             </p>
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
               <div className='form-group'>
                 <label htmlFor='exampleFormControlInput1' className='contactp'>
                   Name
@@ -27,6 +59,7 @@ const Contact = () => {
                   type='text'
                   className='form-control'
                   id='exampleFormControlInput1'
+                  name='name'
                 />
               </div>
               <div className='form-group'>
@@ -37,6 +70,7 @@ const Contact = () => {
                   type='email'
                   className='form-control'
                   id='exampleFormControlInput1'
+                  name='email'
                 />
               </div>
               <div className='form-group'>
@@ -44,12 +78,13 @@ const Contact = () => {
                   htmlFor='exampleFormControlTextarea1'
                   className='contactp'
                 >
-                  Example textarea
+                  Message
                 </label>
                 <textarea
                   className='form-control'
                   id='exampleFormControlTextarea1'
                   rows='3'
+                  name='message'
                 ></textarea>
               </div>
               <button type='submit' className='submitbtn'>
@@ -61,7 +96,13 @@ const Contact = () => {
             <h2 className='contactus text-center'>INFORMATION</h2>
             <div className='mail' id='flex'>
               <CgMail className='flexicon' />
-              <p className='contactp ml-2 ml-md-4'>logo@gmail.com</p>
+              <Mailto
+                email='info@southsaharan.org'
+                subject='Hello & Welcome'
+                body='Hello world!'
+              >
+                <p className='contactp ml-2 ml-md-4'>info@southsaharan.org</p>
+              </Mailto>
             </div>
             <div className='tel' id='flex'>
               <BsFillTelephoneFill className='flexicon' />
