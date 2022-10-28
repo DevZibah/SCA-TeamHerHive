@@ -12,7 +12,29 @@ const AudioContextProvider = ({ children }) => {
   const [title, setTitle] = useState('Here is a story of a warrior')
   const [titleone, setTitleone] = useState('What is Gender Based Violence?')
   const [titletwo, setTitletwo] = useState('Forms of Gender Based Violence')
-
+  const [titlethree, setTitlethree] = useState(
+    'Solution to Gender Based Violence according to UNICEF'
+  )
+  const [titlefour, setTitlefour] = useState(
+    'Tackling Child Abuse and Sexual Harassment'
+  )
+  const [titlefive, setTitlefive] = useState(
+    'The Need for the Child Protection Committee'
+  )
+  const [titlesix, setTitlesix] = useState(
+    'Tips for Youth to Prevent Gender-Based Violence and Inequality'
+  )
+  const [titlesept, setTitlesept] = useState(
+    'Providing Safe Spaces for Survivors of Gender-Based Violence'
+  )
+  const [titleeig, setTitleeig] = useState(
+    'Doesn’t sexual violence only happen to girls?'
+  )
+  const [titlenine, setTitlenine] = useState('What happens afterwards?')
+  const [titleten, setTitleten] = useState('Whose fault is it?')
+  const [titleele, setTitleele] = useState(
+    'Is there anything that can be done?'
+  )
   //get json data using the fetch api. this fetch api gets the data stored in our json file and stores it in the variable data as declared above.
   // async-await=> async function makes sure that a promise is returned. await is a keyword that makes the code wait until the promise returns a result.
   const fetchPackages = async () => {
@@ -57,6 +79,15 @@ const AudioContextProvider = ({ children }) => {
         title,
         titleone,
         titletwo,
+        titlethree,
+        titlefour,
+        titlefive,
+        titlesix,
+        titlesept,
+        titleeig,
+        titlenine,
+        titleten,
+        titleele,
       }}
     >
       {children}

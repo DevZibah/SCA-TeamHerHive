@@ -18,8 +18,22 @@ import { AudioContext } from '../Contexts/AudioContext'
 
 const Home = () => {
   const [show, setShow] = useState(false)
-  const { data, setNameone, title, titleone, titletwo } =
-    useContext(AudioContext)
+  const {
+    data,
+    setNameone,
+    title,
+    titleone,
+    titletwo,
+    titlethree,
+    titlefour,
+    titlefive,
+    titlesix,
+    titlesept,
+    titleeig,
+    titlenine,
+    titleten,
+    titleele,
+  } = useContext(AudioContext)
   return (
     <div>
       <Navbar />
@@ -33,9 +47,16 @@ const Home = () => {
             16 Days of Activism against Gender-Based Violence runs from November
             25 annually
           </p>
-          <Link to='/About' className='text-capitalize p-1'>
-            <button className='text-capitalize p-1'>about us</button>
-          </Link>
+          <div className='d-flex mt-n2 div-header'>
+            <article className='div-header d-flex p-md-1'>
+              <div>
+                <BiPlayCircle className='div-head-icon ml-1' />
+              </div>
+              <div>
+                <small className='ml-2 smmall div-head-small'>Learn More</small>
+              </div>
+            </article>
+          </div>
         </div>
       </section>
       <div className='p-3 div-mid p-md-4'>
@@ -102,12 +123,15 @@ const Home = () => {
           <div className=''>
             <img className='img-on mt-4' src={rec16} alt='rec31' />
             <div className='div-fiv text-center p-3'>
-              <p className='mt-3 div-fiv-p divv-fiv-ppp'>
-                Solution to Gender Based Violence according to UNICEF
-              </p>
+              <p className='mt-3 div-fiv-p divv-fiv-ppp'>{titlethree}</p>
               <div className='d-flex div-tw mt-n2 div-teo'>
                 <div>
-                  <BiPlayCircle className='icon ml-1' />
+                  <Link to='/Record' className='linnk'>
+                    <BiPlayCircle
+                      className='icon ml-1'
+                      onClick={() => (setShow(true), setNameone(titlethree))}
+                    />
+                  </Link>
                 </div>
                 <div>
                   <small className='ml-2 div-smal'>Listen Here</small>
@@ -125,12 +149,15 @@ const Home = () => {
           <div className='mt-md-4'>
             <img className='img-on' src={rec26} alt='rec22' />
             <div className='div-fiv text-center p-3'>
-              <p className='mt-3 div-fiv-p'>
-                Tackling Child Abuse and Sexual Harassment
-              </p>
+              <p className='mt-3 div-fiv-p'>{titlefour}</p>
               <div className='d-flex div-tw mt-n2 div-teo'>
                 <div>
-                  <BiPlayCircle className='icon ml-1' />
+                  <Link to='/Record' className='linnk'>
+                    <BiPlayCircle
+                      className='icon ml-1'
+                      onClick={() => (setShow(true), setNameone(titlefour))}
+                    />
+                  </Link>
                 </div>
                 <div>
                   <small className='ml-2 div-smal'>Listen Here</small>
@@ -146,7 +173,12 @@ const Home = () => {
               </p>
               <div className='d-flex div-tw mt-n2 div-teo'>
                 <div>
-                  <BiPlayCircle className='icon ml-1' />
+                  <Link to='/Record' className='linnk'>
+                    <BiPlayCircle
+                      className='icon ml-1'
+                      onClick={() => (setShow(true), setNameone(titlefive))}
+                    />
+                  </Link>
                 </div>
                 <div>
                   <small className='ml-2 div-smal'>Listen Here</small>
@@ -157,12 +189,15 @@ const Home = () => {
           <div className=''>
             <img className='img-on mt-4' src={rec24} alt='rec22' />
             <div className='div-fiv text-center p-3'>
-              <p className='mt-3 div-fiv-p divv-fiv-pp'>
-                Tips for Youth to Prevent Gender-Based Violence and Inequality
-              </p>
+              <p className='mt-3 div-fiv-p divv-fiv-pp'>{titlesix}</p>
               <div className='d-flex div-tw mt-n2 div-teo'>
                 <div>
-                  <BiPlayCircle className='icon ml-1' />
+                  <Link to='/Record' className='linnk'>
+                    <BiPlayCircle
+                      className='icon ml-1'
+                      onClick={() => (setShow(true), setNameone(titlesix))}
+                    />
+                  </Link>
                 </div>
                 <div>
                   <small className='ml-2 div-smal'>Listen Here</small>
@@ -173,9 +208,7 @@ const Home = () => {
         </article>
       </section>
       <section className='sec-six mt-3 p-3'>
-        <p className='text-center p-sx'>
-          Providing Safe Spaces for Survivors of Gender-Based Violence
-        </p>
+        <p className='text-center p-sx'>{titlesept}</p>
         <article className=''>
           <div>
             <img className='img-on image-one' src={rec32} alt='' />
@@ -193,7 +226,12 @@ const Home = () => {
               </p>
               <div className='d-flex div-tw mt-n2 div-teo div-tteo'>
                 <div>
-                  <BiPlayCircle className='icon icoonn ml-1' />
+                  <Link to='/Record' className='linnk'>
+                    <BiPlayCircle
+                      className='icon icoonn ml-1'
+                      onClick={() => (setShow(true), setNameone(titlesept))}
+                    />
+                  </Link>
                 </div>
                 <div>
                   <small className='ml-2 div-smal divv-smal'>Listen Here</small>
@@ -267,24 +305,40 @@ const Home = () => {
           <article className='arti-one'>
             <div className='arrtticle mt-md-4'>
               <div className='mt-3 p-sv d-flex'>
-                <p className='mt-2 p-eig'>
-                  Doesn’t sexual violence only happen to girls?
-                </p>
-                <BiPlayCircle className='icon-on mt-2' />
+                <p className='mt-2 p-eig'>{titleeig}</p>
+                <Link to='/Record' className='faqlink'>
+                  <BiPlayCircle
+                    className='icon-on mt-2'
+                    onClick={() => (setShow(true), setNameone(titleeig))}
+                  />
+                </Link>
               </div>
               <div className='mt-3 p-sv d-flex'>
-                <p className='mt-2 p-eig'>What happens afterwards?</p>
-                <BiPlayCircle className='icon-on mt-2' />
+                <p className='mt-2 p-eig'>{titlenine}</p>
+                <Link to='/Record' className='faqlink'>
+                  <BiPlayCircle
+                    className='icon-on mt-2'
+                    onClick={() => (setShow(true), setNameone(titlenine))}
+                  />
+                </Link>
               </div>
               <div className='mt-3 p-sv d-flex'>
-                <p className='mt-2 p-eig'>Whose fault is it?</p>
-                <BiPlayCircle className='icon-on mt-2' />
+                <p className='mt-2 p-eig'>{titleten}</p>
+                <Link to='/Record' className='faqlink'>
+                  <BiPlayCircle
+                    className='icon-on mt-2'
+                    onClick={() => (setShow(true), setNameone(titleten))}
+                  />
+                </Link>
               </div>
               <div className='mt-3 p-sv d-flex'>
-                <p className='mt-2 p-eig'>
-                  Is there anything that can be done?
-                </p>
-                <BiPlayCircle className='icon-on mt-2' />
+                <p className='mt-2 p-eig'>{titleele}</p>
+                <Link to='/Record' className='faqlink'>
+                  <BiPlayCircle
+                    className='icon-on mt-2'
+                    onClick={() => (setShow(true), setNameone(titleele))}
+                  />
+                </Link>
               </div>
             </div>
             <div>

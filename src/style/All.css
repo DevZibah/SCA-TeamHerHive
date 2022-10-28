@@ -52,15 +52,20 @@ body {
 .p-one {
   font-size: 16px;
 }
-.p-two {
-  font-size: 10px;
-}
-.sec-one button {
+.div-header {
   border: 1px solid var(--ButtonColor);
+  margin: auto;
+  align-items: center;
+  justify-content: center;
   background-color: var(--ButtonColor);
-  width: 8rem;
   border-radius: 4px;
   color: white;
+}
+.div-head-icon {
+  font-size: 20px;
+}
+.p-two {
+  font-size: 10px;
 }
 .sec-two {
   border: 1px solid var(--SecTwoBackground);
@@ -237,6 +242,9 @@ body {
 .rhap_additional-controls {
   color: var(--SecTwoPtag) !important;
 }
+.faqlink {
+  color: #573e8d;
+}
 
 @media (min-width: 768px) {
   .icon-one {
@@ -255,6 +263,18 @@ body {
     font-weight: 700;
     font-size: 35px;
     line-height: 36px;
+  }
+  .div-header {
+    border: 1px solid var(--ButtonColor);
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--ButtonColor);
+    border-radius: 4px;
+    color: white;
+  }
+  .div-head-icon {
+    font-size: 25px;
   }
   .p-two {
     font-weight: 500;
@@ -400,6 +420,20 @@ body {
     font-size: 50px;
     line-height: 96px;
   }
+  .div-header {
+    border: 1px solid var(--ButtonColor);
+    width: 300px;
+    height: 50px;
+  }
+  .div-head-small {
+    font-weight: 700;
+    font-size: 24px !important;
+    line-height: 48px;
+  }
+  .div-head-icon {
+    width: 40px;
+    height: 40px;
+  }
   .p-two {
     font-weight: 500;
     font-size: 24px;
@@ -412,6 +446,7 @@ body {
     height: 56px;
   }
   .div-mid {
+    margin-top: 8rem !important;
     padding: 4rem !important;
   }
   .sec-two {

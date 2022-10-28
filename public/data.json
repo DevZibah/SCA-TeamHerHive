@@ -7,14 +7,68 @@
   },
   {
     "id": 1,
-    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1665945364/Rectangle_31_dbcmwg.png",
-    "name": "what is sickle cell",
-    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666155773/Notice_and_Name_jr5gn7.mp3"
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981455/rec22_xxlbmb.png",
+    "name": "What is Gender Based Violence?",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978408/what_is_gender_based_violence_kth6xz.aac"
   },
   {
     "id": 2,
-    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666464693/rec22_i8omnf.png",
-    "name": "Types of sickle cell",
-    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666464835/Making_Room_dvkyk4.mp3"
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981454/rec14_uvomgw.png",
+    "name": "Forms of Gender Based Violence",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/forms_of_gender_based_violence_kyiqhn.aac"
+  },
+  {
+    "id": 3,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981455/rec16_spdeyc.png",
+    "name": "Solution to Gender Based Violence according to UNICEF",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/forms_of_gender_based_violence_kyiqhn.aac"
+  },
+  {
+    "id": 4,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981456/rec26_zxzovl.png",
+    "name": "Tackling Child Abuse and Sexual Harassment",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/forms_of_gender_based_violence_kyiqhn.aac"
+  },
+  {
+    "id": 5,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981455/rec23_fhrpnu.png",
+    "name": "The Need for the Child Protection Committee",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/the_need_for_the_child_protection_w494kn.aac"
+  },
+  {
+    "id": 6,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981456/rec24_h23xdh.png",
+    "name": "Tips for Youth to Prevent Gender-Based Violence and Inequality",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/tips_for_youth_to_prevent_gbv_gqoamz.aac"
+  },
+  {
+    "id": 7,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981457/rec32_ud8tf7.png",
+    "name": "Providing Safe Spaces for Survivors of Gender-Based Violence",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/tips_for_youth_to_prevent_gbv_gqoamz.aac"
+  },
+  {
+    "id": 8,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981457/rec31_vqzscz.png",
+    "name": "Doesn’t sexual violence only happen to girls?",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666874393/doesn_t_sexual_violence_only_happen_to_girls_dldzha.aac"
+  },
+  {
+    "id": 9,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981457/rec31_vqzscz.png",
+    "name": "What happens afterwards?",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666981228/what_happens_afterwards_e1pic9.aac"
+  },
+  {
+    "id": 10,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981457/rec31_vqzscz.png",
+    "name": "Whose fault is it?",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666874390/whose_fault_is_it_hrxft6.aac"
+  },
+  {
+    "id": 11,
+    "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981457/rec31_vqzscz.png",
+    "name": "Is there anything that can be done?",
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666874385/is_there_anything_that_can_be_done_qrsmte.aac"
   }
 ]
