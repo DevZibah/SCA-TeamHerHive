@@ -10,8 +10,8 @@ const AudioContextProvider = ({ children }) => {
   const [nameone, setNameone] = useState()
   const [id, setId] = useState(0)
   const [title, setTitle] = useState('Here is a story of a warrior')
-  const [titleone, setTitleone] = useState('what is sickle cell')
-  const [titletwo, setTitletwo] = useState('Types of sickle cell')
+  const [titleone, setTitleone] = useState('What is Gender Based Violence?')
+  const [titletwo, setTitletwo] = useState('Forms of Gender Based Violence')
 
   //get json data using the fetch api. this fetch api gets the data stored in our json file and stores it in the variable data as declared above.
   // async-await=> async function makes sure that a promise is returned. await is a keyword that makes the code wait until the promise returns a result.

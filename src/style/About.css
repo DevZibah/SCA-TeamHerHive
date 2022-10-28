@@ -33,6 +33,15 @@
   box-shadow: 10px 10px 20px rgba(22, 27, 29, 0.25), -10px -10px 20px #fafbff;
   border-radius: 10px;
 }
+.article-div p, .flexbox3 p  {
+  text-align: justify;
+}
+.flexbox3-h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+  color: #573e8d;
+}
 @media (min-width: 768px) {
   .flex-1 img {
     display: none;
