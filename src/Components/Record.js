@@ -7,12 +7,12 @@ import { AiOutlineClose } from 'react-icons/ai'
 import Navbar from './Navbar'
 
 const Record = () => {
-  const { data, nameone } = useContext(AudioContext)
+  const { data, nameone, setYoruba, yoruba } = useContext(AudioContext)
 
   return (
     <div>
       <Navbar />
-      <section className='mod text-center'>
+      <section className='mod text-center p-4'>
         <div className='mod-content p-4'>
           {data
             .filter((item) => {
@@ -31,6 +31,7 @@ const Record = () => {
             })}
         </div>
       </section>
+      <p onClick={() => setYoruba(!yoruba)}>yoruba</p>
     </div>
   )
 }

@@ -213,8 +213,7 @@ body {
   margin-left: -14.5rem !important;
 }
 .audioimg {
-  width: 250px;
-  height: 200px;
+  width: 100%;
 }
 .audiop {
   font-weight: 700;

@@ -4,8 +4,10 @@ import 'react-h5-audio-player/lib/styles.css'
 import { AudioContext } from '../Contexts/AudioContext'
 
 const Audi = ({ item }) => {
-  const { data } = useContext(AudioContext)
+  const { data, yoruba } = useContext(AudioContext)
   const [trackIndex, setTrackIndex] = useState(item.id)
+
+  console.log(yoruba)
 
   const handleClickPrevious = () => {
     setTrackIndex((currentTrack) =>
@@ -20,13 +22,17 @@ const Audi = ({ item }) => {
   }
   return (
     <div>
-     
       <img className='audioimg' src={data[trackIndex].image} alt='' />
       <p className='audiop'>{data[trackIndex].name}</p>
       <AudioPlayer
         className='audiolib mt-n3'
         // autoPlay
-        src={data[trackIndex].record}
+        // src={data[trackIndex].record}
+        src={
+          yoruba === true
+            ? data[trackIndex].yorubarecord
+            : data[trackIndex].record
+        }
         onPlay={(e) => console.log('onPlay')}
         showSkipControls={true}
         showJumpControls={false}
