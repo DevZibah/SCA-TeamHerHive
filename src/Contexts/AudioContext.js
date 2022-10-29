@@ -39,6 +39,9 @@ const AudioContextProvider = ({ children }) => {
   const [titleele, setTitleele] = useState(
     'Is there anything that can be done?'
   )
+  const [titletwe, setTitletwe] = useState(
+    '16 Days of Activism against Gender-Based Violence runs from November 25 annually'
+  )
   //get json data using the fetch api. this fetch api gets the data stored in our json file and stores it in the variable data as declared above.
   // async-await=> async function makes sure that a promise is returned. await is a keyword that makes the code wait until the promise returns a result.
   const fetchPackages = async () => {
@@ -92,6 +95,7 @@ const AudioContextProvider = ({ children }) => {
         titlenine,
         titleten,
         titleele,
+        titletwe,
         setYoruba,
         yoruba,
         setIgbo,

@@ -33,6 +33,7 @@ const Home = () => {
     titlenine,
     titleten,
     titleele,
+    titletwe,
   } = useContext(AudioContext)
   return (
     <div>
@@ -43,20 +44,24 @@ const Home = () => {
           <p className='p-one'>
             All Violence is the Illustration of Pathetic Stereotype
           </p>
-          <p className='mt-n3 p-two'>
-            16 Days of Activism against Gender-Based Violence runs from November
-            25 annually
-          </p>
-          <div className='d-flex mt-n2 div-header'>
-            <article className='div-header d-flex p-md-1'>
-              <div>
-                <BiPlayCircle className='div-head-icon ml-1' />
-              </div>
-              <div>
-                <small className='ml-2 smmall div-head-small'>Learn More</small>
-              </div>
-            </article>
-          </div>
+          <p className='mt-n3 p-two'>{titletwe}</p>
+          <Link to='/Record' className='linnk'>
+            <div
+              className='d-flex mt-n2 div-header'
+              onClick={() => (setShow(true), setNameone(titletwe))}
+            >
+              <article className='div-header d-flex p-md-1'>
+                <div>
+                  <BiPlayCircle className='div-head-icon ml-1' />
+                </div>
+                <div>
+                  <small className='ml-2 smmall div-head-small'>
+                    Learn More
+                  </small>
+                </div>
+              </article>
+            </div>
+          </Link>
         </div>
       </section>
       <div className='p-3 div-mid p-md-4'>
