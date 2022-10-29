@@ -52,10 +52,10 @@ const Record = () => {
           Select Language
         </button>
         <div className='dropdown-menu text-center dropmenu'>
-          <p onClick={() => setEnglish(!english)}>English</p>
-          <p onClick={() => setYoruba(!yoruba)}>Yoruba</p>
-          <p onClick={() => setIgbo(!igbo)}>Igbo</p>
-          <p onClick={() => setHausa(!hausa)}>Hausa</p>
+          <p onClick={() => setEnglish(true)}>English</p>
+          <p onClick={() => setYoruba(true)}>Yoruba</p>
+          <p onClick={() => setIgbo(true)}>Igbo</p>
+          <p onClick={() => setHausa(true)}>Hausa</p>
         </div>
       </div>
     </div>

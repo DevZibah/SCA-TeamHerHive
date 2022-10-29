@@ -20,8 +20,22 @@ const Audione = ({ item }) => {
   }
   return (
     <div>
-      <img className='audioimg audimgg' src={dataone[trackIndex].image} alt='' />
-      <p className='audiop'>{dataone[trackIndex].name}</p>
+      <img
+        className='audioimg audimgg'
+        src={dataone[trackIndex].image}
+        alt=''
+      />
+      <p className='audiop'>
+        {english === true
+          ? dataone[trackIndex].name
+          : igbo === true
+          ? dataone[trackIndex].nameigbo
+          : yoruba === true
+          ? dataone[trackIndex].nameyoruba
+          : hausa === true
+          ? dataone[trackIndex].namehausa
+          : dataone[trackIndex].name}
+      </p>
       <AudioPlayer
         className='audiolib mt-n3'
         // autoPlay
@@ -32,6 +46,8 @@ const Audione = ({ item }) => {
             ? dataone[trackIndex].igbo
             : yoruba === true
             ? dataone[trackIndex].yoruba
+            : hausa === true
+            ? dataone[trackIndex].hausa
             : dataone[trackIndex].record
         }
         onPlay={(e) => console.log('onPlay')}

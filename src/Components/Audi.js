@@ -7,8 +7,6 @@ const Audi = ({ item }) => {
   const { data, yoruba, igbo, hausa, english } = useContext(AudioContext)
   const [trackIndex, setTrackIndex] = useState(item.id)
 
-  console.log(yoruba)
-
   const handleClickPrevious = () => {
     setTrackIndex((currentTrack) =>
       currentTrack === 0 ? data.length - 1 : currentTrack - 1
@@ -23,7 +21,18 @@ const Audi = ({ item }) => {
   return (
     <div>
       <img className='audioimg' src={data[trackIndex].image} alt='' />
-      <p className='audiop mt-2'>{data[trackIndex].name}</p>
+      <p className='audiop mt-2'>
+        {english === true
+          ? data[trackIndex].name
+          : igbo === true
+          ? data[trackIndex].nameigbo
+          : yoruba === true
+          ? data[trackIndex].nameyoruba
+          : hausa === true
+          ? data[trackIndex].namehausa
+          : data[trackIndex].name}
+      </p>
+      {/* <p className='audiop mt-2'>{data[trackIndex].name}</p> */}
       <AudioPlayer
         className='audiolib mt-n3'
         // autoPlay
@@ -34,6 +43,8 @@ const Audi = ({ item }) => {
             ? data[trackIndex].igbo
             : yoruba === true
             ? data[trackIndex].yoruba
+            : hausa === true
+            ? data[trackIndex].hausa
             : data[trackIndex].record
         }
         onPlay={(e) => console.log('onPlay')}
