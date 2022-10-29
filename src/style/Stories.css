@@ -68,6 +68,15 @@
     line-height: 30px;
     color: #ffffff;
   }
+  .mod1 {
+    padding: 8rem !important;
+  }
+  .mod-content1 {
+    margin-top: -6rem;
+  }
+  .drpdownn {
+    transform: translateY(-4rem) !important;
+  }
 }
 @media (min-width: 1024px) {
   .stories-art {
@@ -89,5 +98,16 @@
     font-size: 32px;
     line-height: 48px;
     color: #ffffff;
+  }
+  .mod-content1 {
+    margin-top: -6rem;
+    width: 500px;
+    height: 400px;
+  }
+  .drpdownn {
+    transform: translateY(-4rem) !important;
+  }
+  .audimgg {
+    width: 70%;
   }
 }
