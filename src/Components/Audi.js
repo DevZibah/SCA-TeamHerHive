@@ -4,7 +4,7 @@ import 'react-h5-audio-player/lib/styles.css'
 import { AudioContext } from '../Contexts/AudioContext'
 
 const Audi = ({ item }) => {
-  const { data, yoruba } = useContext(AudioContext)
+  const { data, yoruba, igbo, hausa, english } = useContext(AudioContext)
   const [trackIndex, setTrackIndex] = useState(item.id)
 
   console.log(yoruba)
@@ -23,14 +23,18 @@ const Audi = ({ item }) => {
   return (
     <div>
       <img className='audioimg' src={data[trackIndex].image} alt='' />
-      <p className='audiop'>{data[trackIndex].name}</p>
+      <p className='audiop mt-2'>{data[trackIndex].name}</p>
       <AudioPlayer
         className='audiolib mt-n3'
         // autoPlay
         // src={data[trackIndex].record}
         src={
-          yoruba === true
-            ? data[trackIndex].yorubarecord
+          english === true
+            ? data[trackIndex].record
+            : igbo === true
+            ? data[trackIndex].igbo
+            : yoruba === true
+            ? data[trackIndex].yoruba
             : data[trackIndex].record
         }
         onPlay={(e) => console.log('onPlay')}

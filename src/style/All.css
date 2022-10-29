@@ -201,6 +201,28 @@ body {
   border: 1px solid var(--AudioBackground) !important;
   background-color: var(--AudioBackground);
 }
+.dropdownn {
+  transform: translateY(-1rem) !important;
+}
+.dropbutn {
+  border: 1px solid #7651c5 !important;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  width: 190px;
+  height: 44px;
+  background: #7651c5 !important;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dropmenu {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #573e8d;
+  cursor: pointer;
+}
 .linnk {
   color: white;
 }
@@ -218,7 +240,7 @@ body {
 .audiop {
   font-weight: 700;
   font-size: 20px;
-  line-height: 44px;
+  line-height: 20px;
   color: var(--SecTwoPtag);
 }
 .audiolib {
@@ -398,6 +420,13 @@ body {
   }
   .mod-content {
     width: 360px !important;
+  }
+  .dropbutn {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    width: 200px;
+    height: 46px;
   }
 }
 @media (min-width: 1024px) {
@@ -597,14 +626,20 @@ body {
   .mod-content {
     width: 450px !important;
   }
+  .dropbutn {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    width: 213px;
+    height: 46px;
+  }
   .audioimg {
-    width: 401px;
-    height: 291px;
+    width: 100%;
   }
   .audiop {
     font-weight: 700;
     font-size: 28px;
-    line-height: 50px;
+    line-height: 40px;
   }
   .arrow {
     font-size: 25px;

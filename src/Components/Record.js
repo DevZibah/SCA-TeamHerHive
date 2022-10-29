@@ -7,7 +7,18 @@ import { AiOutlineClose } from 'react-icons/ai'
 import Navbar from './Navbar'
 
 const Record = () => {
-  const { data, nameone, setYoruba, yoruba } = useContext(AudioContext)
+  const {
+    data,
+    nameone,
+    setYoruba,
+    yoruba,
+    setIgbo,
+    igbo,
+    setHausa,
+    hausa,
+    setEnglish,
+    english,
+  } = useContext(AudioContext)
 
   return (
     <div>
@@ -31,7 +42,22 @@ const Record = () => {
             })}
         </div>
       </section>
-      <p onClick={() => setYoruba(!yoruba)}>yoruba</p>
+      <div className='dropdown text-center mt-n5 dropdownn'>
+        <button
+          className='btn btn-secondary dropdown-toggle dropbutn'
+          type='button'
+          data-toggle='dropdown'
+          aria-expanded='false'
+        >
+          Select Language
+        </button>
+        <div className='dropdown-menu text-center dropmenu'>
+          <p onClick={() => setEnglish(!english)}>English</p>
+          <p onClick={() => setYoruba(!yoruba)}>Yoruba</p>
+          <p onClick={() => setIgbo(!igbo)}>Igbo</p>
+          <p onClick={() => setHausa(!hausa)}>Hausa</p>
+        </div>
+      </div>
     </div>
   )
 }

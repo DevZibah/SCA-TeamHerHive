@@ -10,19 +10,25 @@
     "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981455/rec22_xxlbmb.png",
     "name": "What is Gender Based Violence?",
     "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978408/what_is_gender_based_violence_kth6xz.aac",
-    "yorubarecord": "https://res.cloudinary.com/sohmmie/video/upload/v1666991056/What_is_GBV_yoruba_f1tpgi.wmv"
+    "yoruba": "https://res.cloudinary.com/sohmmie/video/upload/v1666997720/What_is_GBV_yoruba_gqyevl.mp3",
+    "igbo": "https://res.cloudinary.com/sohmmie/video/upload/v1666997242/what_is_gbv_igbo_ffihis.aac",
+    "hausa": "https://res.cloudinary.com/sohmmie/video/upload/v1666997242/what_is_gbv_igbo_ffihis.aac"
   },
   {
     "id": 2,
     "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981454/rec14_uvomgw.png",
     "name": "Forms of Gender Based Violence",
-    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/forms_of_gender_based_violence_kyiqhn.aac"
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/forms_of_gender_based_violence_kyiqhn.aac",
+    "yoruba": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/forms_of_gender_based_violence_kyiqhn.aac",
+    "igbo": "https://res.cloudinary.com/sohmmie/video/upload/v1667001273/Forms_of_Gender_Based_Violence_igbo_xj99ls.aac"
   },
   {
     "id": 3,
     "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981455/rec16_spdeyc.png",
     "name": "Solution to Gender Based Violence according to UNICEF",
-    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/forms_of_gender_based_violence_kyiqhn.aac"
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/forms_of_gender_based_violence_kyiqhn.aac",
+    "yoruba": "https://res.cloudinary.com/sohmmie/video/upload/v1666991726/unicef-1_68GJJvcZ_phryls.mp3",
+    "igbo": "https://res.cloudinary.com/sohmmie/video/upload/v1667000661/Solution_to_gbv_according_to_UNICEF_igbo_fdmjv6.aac"
   },
   {
     "id": 4,
@@ -34,13 +40,15 @@
     "id": 5,
     "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981455/rec23_fhrpnu.png",
     "name": "The Need for the Child Protection Committee",
-    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/the_need_for_the_child_protection_w494kn.aac"
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/the_need_for_the_child_protection_w494kn.aac",
+    "igbo": "https://res.cloudinary.com/sohmmie/video/upload/v1667001653/The_Need_for_the_Child_Protection_Committee_igbo_mhykea.aac"
   },
   {
     "id": 6,
     "image": "https://res.cloudinary.com/sohmmie/image/upload/v1666981456/rec24_h23xdh.png",
     "name": "Tips for Youth to Prevent Gender-Based Violence and Inequality",
-    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/tips_for_youth_to_prevent_gbv_gqoamz.aac"
+    "record": "https://res.cloudinary.com/sohmmie/video/upload/v1666978409/tips_for_youth_to_prevent_gbv_gqoamz.aac",
+    "igbo": "https://res.cloudinary.com/sohmmie/video/upload/v1667001431/Tips_for_Youth_to_Prevent_Gender-Based_Violence_and_Inequality_igbo_h92y1u.aac"
   },
   {
     "id": 7,

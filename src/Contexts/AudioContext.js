@@ -9,6 +9,9 @@ const AudioContextProvider = ({ children }) => {
   const [dataone, setDataone] = useState([])
   const [nameone, setNameone] = useState()
   const [yoruba, setYoruba] = useState(false)
+  const [igbo, setIgbo] = useState(false)
+  const [hausa, setHausa] = useState(false)
+  const [english, setEnglish] = useState(false)
   const [id, setId] = useState(0)
   const [title, setTitle] = useState('Here is a story of a warrior')
   const [titleone, setTitleone] = useState('What is Gender Based Violence?')
@@ -91,6 +94,12 @@ const AudioContextProvider = ({ children }) => {
         titleele,
         setYoruba,
         yoruba,
+        setIgbo,
+        igbo,
+        setHausa,
+        hausa,
+        setEnglish,
+        english,
       }}
     >
       {children}
