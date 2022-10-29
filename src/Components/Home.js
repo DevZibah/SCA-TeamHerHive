@@ -60,22 +60,22 @@ const Home = () => {
         </div>
       </section>
       <div className='p-3 div-mid p-md-4'>
-        <section className='sec-two d-flex p-3'>
-          <p className='p-th mt-n2'>{title}</p>
-          <div className='d-flex div-tw mt-n2'>
-            <div>
-              <Link to='/Record' className='linnk'>
-                <BiPlayCircle
-                  onClick={() => (setShow(true), setNameone(title))}
-                  className='icon icconn ml-1'
-                />
-              </Link>
-              <Audio show={show} onClose={() => setShow(false)} />
+        <section className='sec-two d-flex p-2'>
+          <p className='p-th mt-1'>{title}</p>
+          <Link to='/Record' className='linnk'>
+            <div
+              className='d-flex div-tw dv-tw'
+              onClick={() => (setShow(true), setNameone(title))}
+            >
+              <div>
+                <BiPlayCircle className='icon icconn ml-1' />
+                <Audio show={show} onClose={() => setShow(false)} />
+              </div>
+              <div>
+                <small className='ml-2 smmall'>Listen Here</small>
+              </div>
             </div>
-            <div>
-              <small className='ml-2 smmall'>Listen Here</small>
-            </div>
-          </div>
+          </Link>
         </section>
       </div>
       <section className='sec-three mt-2 p-3'>
@@ -85,58 +85,58 @@ const Home = () => {
             <img className='img-on' src={rec22} alt='rec31' />
             <div className='div-fiv text-center p-3'>
               <p className='mt-3 div-fiv-p'>{titleone}</p>
-              <div className='d-flex div-tw mt-n2 div-teo'>
-                <div>
-                  <Link to='/Record' className='linnk'>
-                    <BiPlayCircle
-                      onClick={() => (setShow(true), setNameone(titleone))}
-                      className='icon ml-1'
-                    />
-                  </Link>
-                  <Audio show={show} onClose={() => setShow(false)} />
+              <Link to='/Record' className='linnk'>
+                <div
+                  className='d-flex div-tw mt-n2 div-teo'
+                  onClick={() => (setShow(true), setNameone(titleone))}
+                >
+                  <div>
+                    <BiPlayCircle className='icon ml-1' />
+                    <Audio show={show} onClose={() => setShow(false)} />
+                  </div>
+                  <div>
+                    <small className='ml-2 div-smal'>Listen Here</small>
+                  </div>
                 </div>
-                <div>
-                  <small className='ml-2 div-smal'>Listen Here</small>
-                </div>
-              </div>
+              </Link>
             </div>
           </div>
           <div className=''>
             <img className='img-on mt-4' src={rec14} alt='rec22' />
             <div className='div-fiv text-center p-3'>
               <p className='mt-3 div-fiv-p'>{titletwo}</p>
-              <div className='d-flex div-tw mt-n2 div-teo'>
-                <div>
-                  <Link to='/Record' className='linnk'>
-                    <BiPlayCircle
-                      onClick={() => (setShow(true), setNameone(titletwo))}
-                      className='icon ml-1'
-                    />
-                  </Link>
+              <Link to='/Record' className='linnk'>
+                <div
+                  className='d-flex div-tw mt-n2 div-teo'
+                  onClick={() => (setShow(true), setNameone(titletwo))}
+                >
+                  <div>
+                    <BiPlayCircle className='icon ml-1' />
+                  </div>
+                  <div>
+                    <small className='ml-2 div-smal'>Listen Here</small>
+                  </div>
                 </div>
-                <div>
-                  <small className='ml-2 div-smal'>Listen Here</small>
-                </div>
-              </div>
+              </Link>
             </div>
           </div>
           <div className=''>
             <img className='img-on mt-4' src={rec16} alt='rec31' />
             <div className='div-fiv text-center p-3'>
               <p className='mt-3 div-fiv-p divv-fiv-ppp'>{titlethree}</p>
-              <div className='d-flex div-tw mt-n2 div-teo'>
-                <div>
-                  <Link to='/Record' className='linnk'>
-                    <BiPlayCircle
-                      className='icon ml-1'
-                      onClick={() => (setShow(true), setNameone(titlethree))}
-                    />
-                  </Link>
+              <Link to='/Record' className='linnk'>
+                <div
+                  className='d-flex div-tw mt-n2 div-teo'
+                  onClick={() => (setShow(true), setNameone(titlethree))}
+                >
+                  <div>
+                    <BiPlayCircle className='icon ml-1' />
+                  </div>
+                  <div>
+                    <small className='ml-2 div-smal'>Listen Here</small>
+                  </div>
                 </div>
-                <div>
-                  <small className='ml-2 div-smal'>Listen Here</small>
-                </div>
-              </div>
+              </Link>
             </div>
           </div>
         </article>
@@ -150,59 +150,57 @@ const Home = () => {
             <img className='img-on' src={rec26} alt='rec22' />
             <div className='div-fiv text-center p-3'>
               <p className='mt-3 div-fiv-p'>{titlefour}</p>
-              <div className='d-flex div-tw mt-n2 div-teo'>
-                <div>
-                  <Link to='/Record' className='linnk'>
-                    <BiPlayCircle
-                      className='icon ml-1'
-                      onClick={() => (setShow(true), setNameone(titlefour))}
-                    />
-                  </Link>
+              <Link to='/Record' className='linnk'>
+                <div
+                  className='d-flex div-tw mt-n2 div-teo'
+                  onClick={() => (setShow(true), setNameone(titlefour))}
+                >
+                  <div>
+                    <BiPlayCircle className='icon ml-1' />
+                  </div>
+                  <div>
+                    <small className='ml-2 div-smal'>Listen Here</small>
+                  </div>
                 </div>
-                <div>
-                  <small className='ml-2 div-smal'>Listen Here</small>
-                </div>
-              </div>
+              </Link>
             </div>
           </div>
           <div className=''>
             <img className='img-on mt-4' src={rec23} alt='rec22' />
             <div className='div-fiv text-center p-3'>
-              <p className='mt-3 div-fiv-p'>
-                The Need for the Child Protection Committee
-              </p>
-              <div className='d-flex div-tw mt-n2 div-teo'>
-                <div>
-                  <Link to='/Record' className='linnk'>
-                    <BiPlayCircle
-                      className='icon ml-1'
-                      onClick={() => (setShow(true), setNameone(titlefive))}
-                    />
-                  </Link>
+              <p className='mt-3 div-fiv-p'>{titlefive}</p>
+              <Link to='/Record' className='linnk'>
+                <div
+                  className='d-flex div-tw mt-n2 div-teo'
+                  onClick={() => (setShow(true), setNameone(titlefive))}
+                >
+                  <div>
+                    <BiPlayCircle className='icon ml-1' />
+                  </div>
+                  <div>
+                    <small className='ml-2 div-smal'>Listen Here</small>
+                  </div>
                 </div>
-                <div>
-                  <small className='ml-2 div-smal'>Listen Here</small>
-                </div>
-              </div>
+              </Link>
             </div>
           </div>
           <div className=''>
             <img className='img-on mt-4' src={rec24} alt='rec22' />
             <div className='div-fiv text-center p-3'>
               <p className='mt-3 div-fiv-p divv-fiv-pp'>{titlesix}</p>
-              <div className='d-flex div-tw mt-n2 div-teo'>
-                <div>
-                  <Link to='/Record' className='linnk'>
-                    <BiPlayCircle
-                      className='icon ml-1'
-                      onClick={() => (setShow(true), setNameone(titlesix))}
-                    />
-                  </Link>
+              <Link to='/Record' className='linnk'>
+                <div
+                  className='d-flex div-tw mt-n2 div-teo'
+                  onClick={() => (setShow(true), setNameone(titlesix))}
+                >
+                  <div>
+                    <BiPlayCircle className='icon ml-1' />
+                  </div>
+                  <div>
+                    <small className='ml-2 div-smal'>Listen Here</small>
+                  </div>
                 </div>
-                <div>
-                  <small className='ml-2 div-smal'>Listen Here</small>
-                </div>
-              </div>
+              </Link>
             </div>
           </div>
         </article>
@@ -224,19 +222,21 @@ const Home = () => {
                 identify women who will stand in the gap and advocate for other
                 women.{' '}
               </p>
-              <div className='d-flex div-tw mt-n2 div-teo div-tteo'>
-                <div>
-                  <Link to='/Record' className='linnk'>
-                    <BiPlayCircle
-                      className='icon icoonn ml-1'
-                      onClick={() => (setShow(true), setNameone(titlesept))}
-                    />
-                  </Link>
+              <Link to='/Record' className='linnk'>
+                <div
+                  className='d-flex div-tw mt-n2 div-teo div-tteo'
+                  onClick={() => (setShow(true), setNameone(titlesept))}
+                >
+                  <div>
+                    <BiPlayCircle className='icon icoonn ml-1' />
+                  </div>
+                  <div>
+                    <small className='ml-2 div-smal divv-smal'>
+                      Listen Here
+                    </small>
+                  </div>
                 </div>
-                <div>
-                  <small className='ml-2 div-smal divv-smal'>Listen Here</small>
-                </div>
-              </div>
+              </Link>
             </div>
             <div>
               <img className='image-two immg-two mt-md-2' src={rec32} alt='' />
@@ -305,8 +305,8 @@ const Home = () => {
           <article className='arti-one'>
             <div className='arrtticle mt-md-4'>
               <div className='mt-3 p-sv d-flex'>
-                <p className='mt-2 p-eig'>{titleeig}</p>
-                <Link to='/Record' className='faqlink'>
+                <p className='mt-3 p-eig ml-2'>{titleeig}</p>
+                <Link to='/Record' className='faqlink mt-1 mt-md-2 ml-n1'>
                   <BiPlayCircle
                     className='icon-on mt-2'
                     onClick={() => (setShow(true), setNameone(titleeig))}
@@ -314,8 +314,8 @@ const Home = () => {
                 </Link>
               </div>
               <div className='mt-3 p-sv d-flex'>
-                <p className='mt-2 p-eig'>{titlenine}</p>
-                <Link to='/Record' className='faqlink'>
+                <p className='mt-3 p-eig ml-2'>{titlenine}</p>
+                <Link to='/Record' className='faqlink mt-1 mt-md-2 ml-n2'>
                   <BiPlayCircle
                     className='icon-on mt-2'
                     onClick={() => (setShow(true), setNameone(titlenine))}
@@ -323,8 +323,8 @@ const Home = () => {
                 </Link>
               </div>
               <div className='mt-3 p-sv d-flex'>
-                <p className='mt-2 p-eig'>{titleten}</p>
-                <Link to='/Record' className='faqlink'>
+                <p className='mt-3 p-eig ml-2'>{titleten}</p>
+                <Link to='/Record' className='faqlink mt-1 mt-md-2 ml-n2'>
                   <BiPlayCircle
                     className='icon-on mt-2'
                     onClick={() => (setShow(true), setNameone(titleten))}
@@ -332,8 +332,8 @@ const Home = () => {
                 </Link>
               </div>
               <div className='mt-3 p-sv d-flex'>
-                <p className='mt-2 p-eig'>{titleele}</p>
-                <Link to='/Record' className='faqlink'>
+                <p className='mt-3 p-eig ml-2'>{titleele}</p>
+                <Link to='/Record' className='faqlink mt-1 mt-md-2 ml-n2'>
                   <BiPlayCircle
                     className='icon-on mt-2'
                     onClick={() => (setShow(true), setNameone(titleele))}

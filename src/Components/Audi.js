@@ -27,7 +27,6 @@ const Audi = ({ item }) => {
       <AudioPlayer
         className='audiolib mt-n3'
         // autoPlay
-        // src={data[trackIndex].record}
         src={
           english === true
             ? data[trackIndex].record

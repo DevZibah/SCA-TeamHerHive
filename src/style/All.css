@@ -47,7 +47,7 @@ body {
   width: 100%;
 }
 .div-one {
-  margin-top: -8rem;
+  margin-top: -8.2rem;
 }
 .p-one {
   font-size: 16px;
@@ -60,12 +60,14 @@ body {
   background-color: var(--ButtonColor);
   border-radius: 4px;
   color: white;
+  width: 120px;
+  height: 30px;
 }
 .div-head-icon {
   font-size: 20px;
 }
 .p-two {
-  font-size: 10px;
+  font-size: 8px;
 }
 .sec-two {
   border: 1px solid var(--SecTwoBackground);
@@ -78,6 +80,8 @@ body {
 }
 .p-th {
   color: var(--SecTwoPtag);
+  font-size: 13px;
+  font-weight: 700;
 }
 .div-tw {
   border: 1px solid var(--ButtonColor);
@@ -171,7 +175,11 @@ body {
 .butn {
   width: 12rem;
 }
-.modal {
+.p-sv {
+  font-size: 14px;
+  font-weight: 500;
+}
+/* .modal {
   position: fixed;
   left: 0;
   top: 0;
@@ -181,14 +189,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 .mod {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
 }
-.modal-content {
+/* .modal-content {
   border: 1px solid var(--AudioBackground) !important;
   width: 545px;
   min-height: 50vh;
@@ -196,7 +203,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--AudioBackground);
-}
+} */
 .mod-content {
   border: 1px solid var(--AudioBackground) !important;
   background-color: var(--AudioBackground);
@@ -240,7 +247,7 @@ body {
 .audiop {
   font-weight: 700;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 30px;
   color: var(--SecTwoPtag);
 }
 .audiolib {
@@ -286,13 +293,8 @@ body {
     line-height: 36px;
   }
   .div-header {
-    border: 1px solid var(--ButtonColor);
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--ButtonColor);
-    border-radius: 4px;
-    color: white;
+    width: 200px;
+    height: 40px;
   }
   .div-head-icon {
     font-size: 25px;
@@ -312,6 +314,7 @@ body {
     margin-top: 5rem;
   }
   .p-th {
+    margin-top: -1px !important;
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
@@ -413,6 +416,10 @@ body {
   .butn {
     width: 16rem;
     height: 2.5rem;
+  }
+  .p-sv {
+    font-size: 18px;
+    font-weight: 500;
   }
   .modal-content {
     min-height: 80vh !important;
@@ -573,10 +580,16 @@ body {
     height: 80px;
   }
   .p-eig {
-    margin-top: 1rem !important;
+    margin-top: 1.5rem !important;
     font-weight: 500;
     font-size: 22px;
     line-height: 33px;
+  }
+  .faqlink {
+    margin-top: 0.3rem !important;
+  }
+  .faqlink:hover {
+    color: #573e8d;
   }
   .icon-on {
     margin-top: 0.7rem !important;

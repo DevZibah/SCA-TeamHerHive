@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
 }
 .stories-art {
   border: 1px solid #cfc3e9;
@@ -22,6 +21,9 @@
   box-shadow: 10px 10px 20px rgba(22, 27, 29, 0.25), -10px -10px 20px #fafbff;
   border-radius: 5px;
   justify-content: space-between;
+}
+.stori-p {
+  text-align: start !important;
 }
 .icon-on1 {
   font-size: 25px;

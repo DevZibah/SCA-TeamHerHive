@@ -23,7 +23,7 @@ const Record = () => {
   return (
     <div>
       <Navbar />
-      <section className='mod text-center p-4'>
+      <section className='mod text-center p-4 mt-3'>
         <div className='mod-content p-4'>
           {data
             .filter((item) => {
@@ -42,7 +42,7 @@ const Record = () => {
             })}
         </div>
       </section>
-      <div className='dropdown text-center mt-n5 dropdownn'>
+      <div className='dropdown text-center mt-1 dropdownn'>
         <button
           className='btn btn-secondary dropdown-toggle dropbutn'
           type='button'
