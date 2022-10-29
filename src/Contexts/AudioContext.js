@@ -7,6 +7,7 @@ const AudioContextProvider = ({ children }) => {
   // the array of data to hold the json data provided, data here as an array is empty.
   const [data, setData] = useState([])
   const [dataone, setDataone] = useState([])
+  const [loading, setLoading] = useState(true)
   const [nameone, setNameone] = useState()
   const [yoruba, setYoruba] = useState(false)
   const [igbo, setIgbo] = useState(false)
@@ -49,6 +50,7 @@ const AudioContextProvider = ({ children }) => {
       const response = await fetch(`/data.json`)
       const products = await response.json()
       // console.log(products)
+      setLoading(false)
       setData(products)
     } catch (error) {
       console.log(error)
@@ -64,6 +66,7 @@ const AudioContextProvider = ({ children }) => {
       const response = await fetch(`/dataone.json`)
       const products = await response.json()
       // console.log(products)
+      setLoading(false)
       setDataone(products)
     } catch (error) {
       console.log(error)
@@ -104,6 +107,7 @@ const AudioContextProvider = ({ children }) => {
         hausa,
         setEnglish,
         english,
+        loading,
       }}
     >
       {children}

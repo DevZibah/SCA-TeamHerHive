@@ -57,6 +57,7 @@ const Contact = () => {
                 </label>
                 <input
                   type='text'
+                  required
                   className='form-control'
                   id='exampleFormControlInput1'
                   name='name'
@@ -68,6 +69,7 @@ const Contact = () => {
                 </label>
                 <input
                   type='email'
+                  required
                   className='form-control'
                   id='exampleFormControlInput1'
                   name='email'
@@ -85,6 +87,7 @@ const Contact = () => {
                   id='exampleFormControlTextarea1'
                   rows='3'
                   name='message'
+                  required
                 ></textarea>
               </div>
               <button type='submit' className='submitbtn'>

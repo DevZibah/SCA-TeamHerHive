@@ -280,12 +280,11 @@ const Home = () => {
               Want to listen to stories from other warriors
             </p>
             <small className='pp-p'>
-              Common Types of and Prevalence Estimates for Exposure to Traumatic
-              Stressors. Within the U.S. as many as 1 in 4 males will experience
-              some form of sexual abuse during their lifetime. The number of
-              males who are sexually abused during military service is greater
-              than the number of female service members. As many as 50% of the
-              children who are sex trafficked in the US are males.
+              Within the U.S. as many as 1 in 4 males will experience some form
+              of sexual abuse during their lifetime. The number of males who are
+              sexually abused during military service is greater than the number
+              of female service members. As many as 50% of the children who are
+              sex trafficked in the US are males.
             </small>{' '}
             <br />
             <Link to='/Stories' className='text-capitalize p-1'>
