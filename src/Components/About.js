@@ -1,13 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from './Navbar'
 import rec24 from '../assets/rec24.png'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const About = () => {
+  useEffect(() => {
+    Aos.init()
+  }, [])
   return (
     <div>
       <Navbar />
       <main className='p-4'>
-        <section className='mt-2 first-section p-3 p-md-5'>
+        <section
+          className='mt-2 first-section p-3 p-md-5'
+          data-aos='fade-left'
+          data-aos-offset='200'
+          data-aos-easing='ease-in-sine'
+          data-aos-duration='600'
+        >
           <div className='flex-1'>
             <img src={rec24} alt='' />
           </div>
@@ -30,7 +41,13 @@ const About = () => {
             </div>
           </article>
         </section>
-        <section className='flexbox3 p-3 mt-4 mb-1  p-md-5'>
+        <section
+          className='flexbox3 p-3 mt-4 mb-1  p-md-5'
+          data-aos='fade-right'
+          data-aos-offset='200'
+          data-aos-easing='ease-in-sine'
+          data-aos-duration='800'
+        >
           <h2 className='text-center flexbox3-h2'>
             About The NGO We Are Collaborating With
           </h2>
@@ -48,7 +65,13 @@ const About = () => {
             practice in Southeast Nigeria.
           </p>
         </section>
-        <section className='mt-4 first-section p-3 p-md-5 article-div'>
+        <section
+          className='mt-4 first-section p-3 p-md-5 article-div'
+          data-aos='fade-left'
+          data-aos-offset='200'
+          data-aos-easing='ease-in-sine'
+          data-aos-duration='900'
+        >
           <div className='flex2'>
             <h2 className='text-center'>Our Mission</h2>
             <p>
