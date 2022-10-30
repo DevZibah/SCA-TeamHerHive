@@ -3,10 +3,14 @@ import Navbar from './Navbar'
 import { BiPlayCircle } from 'react-icons/bi'
 import { AudioContext } from '../Contexts/AudioContext'
 import { Link } from 'react-router-dom'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Stories = () => {
   const { dataone, setId } = useContext(AudioContext)
-  console.log(dataone)
+  useEffect(() => {
+    Aos.init()
+  }, [])
   return (
     <div>
       <Navbar />
@@ -18,7 +22,14 @@ const Stories = () => {
             </p>
             <article>
               {dataone.map((item, key) => (
-                <div key={key} className='mt-3 p-sv1 d-flex'>
+                <div
+                  key={key}
+                  className='mt-3 p-sv1 d-flex'
+                  data-aos='fade-up'
+                  data-aos-offset='200'
+                  data-aos-easing='ease-in-sine'
+                  data-aos-duration='600'
+                >
                   <p className='mt-2 p-eig stori-p ml-1 ml-md-2'>{item.name}</p>
                   <Link to='/Recordone' className='linkkk ml-n1 ml-md-n4'>
                     <BiPlayCircle
