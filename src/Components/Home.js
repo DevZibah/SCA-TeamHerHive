@@ -108,7 +108,7 @@ const Home = () => {
             data-aos='flip-up'
             data-aos-offset='200'
             data-aos-easing='linear'
-            data-aos-duration='600'
+            data-aos-duration='700'
           >
             <img className='img-on' src={rec22} alt='rec31' />
             <div className='div-fiv text-center p-3'>
@@ -134,7 +134,7 @@ const Home = () => {
             data-aos='flip-right'
             data-aos-offset='200'
             data-aos-easing='linear'
-            data-aos-duration='600'
+            data-aos-duration='700'
           >
             <img className='img-on mt-4' src={rec14} alt='rec22' />
             <div className='div-fiv text-center p-3'>
@@ -159,7 +159,7 @@ const Home = () => {
             data-aos='flip-up'
             data-aos-offset='200'
             data-aos-easing='linear'
-            data-aos-duration='600'
+            data-aos-duration='700'
           >
             <img className='img-on mt-4' src={rec16} alt='rec31' />
             <div className='div-fiv text-center p-3'>

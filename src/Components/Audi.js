@@ -35,7 +35,7 @@ const Audi = ({ item }) => {
       {/* <p className='audiop mt-2'>{data[trackIndex].name}</p> */}
       <AudioPlayer
         className='audiolib mt-n3'
-        // autoPlay
+        autoPlay
         src={
           english === true
             ? data[trackIndex].record
