@@ -75,28 +75,13 @@ const About = () => {
           <div className='flex2'>
             <h2 className='text-center'>Our Mission</h2>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-              facilis quisquam dolorum ratione? Quam rem, quibusdam commodi odit
-              tempora officia nam eius sequi nihil consequatur beatae in totam,
-              voluptate delectus. Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Aspernatur esse asperiores magnam corrupti
-              deleniti aperiam. Quo, ducimus architecto. Dolores consequuntur
-              maiores minus impedit odit a dolore, ab inventore minima
-              obcaecati.
+              To see a society where the lives of women, youth and children
+              continuously improve through strategic interventions.
             </p>
           </div>
           <div className='flex-2'>
             <h2 className='text-center'>Our Vision</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
-              obcaecati unde mollitia facilis facere quaerat, dolorum dolore
-              provident earum labore ipsam doloribus enim laborum, fuga
-              similique officia reprehenderit cum beatae. Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Dignissimos quas nostrum autem
-              deserunt corrupti cupiditate, rem non dolore sunt excepturi
-              repudiandae accusantium, aut voluptatibus possimus in ex ea
-              asperiores perferendis!
-            </p>
+            <p>A world where every person has equal access to opportunities.</p>
           </div>
         </section>
       </main>
